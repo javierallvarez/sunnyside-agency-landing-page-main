@@ -1,0 +1,237 @@
+/* The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px */
+
+@media (max-width: 400px) {
+    .container{
+        width: 100%;
+    }
+
+    .portada{
+        display: flex;
+        justify-content: center;
+    }
+
+    header nav{
+        display: none;
+    }
+
+    .burger{
+        display: flex;
+    }
+
+    .logo{
+        width: 100px;
+    }
+
+    .img_port{
+        width: 100%;
+        height: 75vh;
+        object-fit: cover;
+    }
+
+    .hacheUnoArrow{
+        margin-top: 150px;
+        width: 80%;
+        text-align: center;
+        font-size: 34px;
+        letter-spacing: 8px;
+        gap: 50px;
+        
+        }
+
+/* ----------------BLOQUE DOS---------------- */
+
+    .bloque_dos{
+        flex-wrap: wrap;
+        height: 700px;
+    }
+
+    .texto_dos{
+        width: 100%;
+        height: 400px;
+        order: 1;
+    }
+
+    .texto_dos_zip{
+        width: 80%;
+        height: 75%;
+        text-align: center;
+    }
+
+    .texto_dos_zip h3{
+        font-size: 28px;  
+    }
+
+    .texto_dos_zip p{
+        margin: 30px 0 30px 0;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .texto_dos_zip a{
+        font-size: 14px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .img_dos{
+        width: 100%;
+        order: 0;
+    }
+
+    .link{
+        height: 60px;
+        margin-bottom: 40px;
+    }
+
+    .line_dos{ 
+        width: 110px;
+        height: 10px; 
+        margin-top: -10px;
+        margin-left: 32%;
+    }
+
+/* ----------------BLOQUE TRES---------------- */
+
+    .bloque_tres{
+        flex-wrap: wrap;
+        height: 670px;
+    }
+
+    .texto_tres{
+        width: 100%;
+        height: 400px;
+    }
+    .texto_tres_zip{
+        width: 80%;
+        height: 75%;
+        text-align: center;
+    }
+
+    .texto_tres_zip h3{
+        font-size: 28px;  
+    }
+
+    .texto_tres_zip p{
+        margin: 30px 0 30px 0;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .texto_tres_zip a{
+        font-size: 14px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .img_tres{
+        width: 100%;
+    }
+
+    .line_tres{ 
+        width: 110px;
+        height: 10px; 
+        margin-top: -10px;
+        margin-left: 32%;
+    }
+
+/* ----------------BLOQUE CUATRO---------------- */
+
+    .bloque_cuatro{
+        flex-wrap: wrap;
+        height: 1200px;
+    }
+
+    .img_cuatro{
+        width: 100%;
+        height: 600px;
+    }
+
+    .img_cuatro img{
+        object-position: top;
+    }
+
+    .img_cuatro h3{
+        font-size: 26px;
+        bottom: 25%;
+        left: 0;
+    }
+
+    .img_cuatro p{
+        font-size: 14px;
+        bottom: 8%;
+        padding: 0px 25px 0 25px;
+        line-height: 24px;
+    }
+
+/* ----------------BLOQUE CINCO---------------- */
+
+    .bloque_cinco {
+        height: 920px;
+    }
+
+    .bloque_cinco h3{
+        font-size: 17px;
+        letter-spacing: 3px;
+        padding: 20px 0 20px 0;
+    }
+
+    .testimonials{
+        flex-direction: column;  
+        height: 800px;  
+    }
+
+    .testimonials p{
+        width: 90%;
+        font-size: 14px;
+        line-height: 24px;
+        opacity: 50%;
+        margin-top: 20px;
+    }
+
+    .testimonials h5{
+        font-size: 14px;
+    }    
+
+    .testimonials h6{
+        font-size: 12px;
+    }
+
+    .char{
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+/* ----------------BLOQUE SEIS---------------- */
+
+    .bloque_seis{
+        height: 400px;
+        flex-wrap: wrap;
+    }
+
+    .bloque_seis img{
+        width: 50%;
+    }
+
+/* ----------------FOOTER---------------- */
+
+    footer{
+        gap: 30px;
+    }
+
+    .nav_footer{
+        gap: 50px;
+        margin-bottom: 20px;
+    }
+
+    .logo_foot {
+        width: 180px;
+    }
+    
+.attribution {
+    margin-top: 16px;
+}
+
+}

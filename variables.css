@@ -1,0 +1,30 @@
+html {
+    --primary: hsl(0, 0%, 100%);
+    --primary_1: hsl(210, 4%, 67%);
+    --primary_2: hsl(232, 10%, 55%);
+    --primary_3: hsl(213, 9%, 39%);
+    --primary_4: hsl(212, 27%, 19%);
+  
+  
+    --soft_red: hsl(7, 99%, 70%);
+    --softer_red: hsl(7, 92%, 85%);
+    --yellow: hsl(51, 100%, 49%);
+    --soft_yellow: hsl(52, 97%, 86%);
+    --design_text: hsl(167, 40%, 24%);
+    --foto_text: hsl(198, 62%, 26%);
+    --footer: #458c7e;
+  
+    --font_1: 'Barlow', sans-serif;
+    --font_2: 'Fraunces', serif;
+  
+    --link: #4BD8D8;
+    --link-hover: #91e7e7;
+
+    --secondary: var(--secondary-5);
+    --secondary-light: var(--secondary-8);
+   
+  
+    --surline: #BDAA4F;
+    --surline-dark: #a79643;
+
+  }

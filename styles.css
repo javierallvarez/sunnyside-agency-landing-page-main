@@ -1,0 +1,404 @@
+header{
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    background-color: transparent;
+    font-family: var(--font_1);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem;
+    z-index: 1;
+}
+
+.logo{
+    width: 160px;
+    cursor: pointer;
+}
+
+.burger{
+    display: none;
+}
+
+nav ul{
+    font-family: var(--font_1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(56, 56, 56);
+    gap: 3rem;
+    list-style: none;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+li{
+    cursor: pointer;
+}
+
+nav button{
+    padding: 14px 28px 14px 28px;
+    background-color: var(--primary);
+    border-radius: 24px;
+    border: none;
+    font-family: var(--font_2);
+    text-transform: uppercase;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+nav button:hover{
+    background-color: #85d4fc;
+    color: var(--primary);
+}
+
+.img_port{
+    position: relative;
+    width: 100%
+}
+
+.hacheUnoArrow{
+    margin-top: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font_2);
+    font-size: 52px;
+    letter-spacing: 12px;
+    gap: 100px;
+    color: var(--primary);
+    position: absolute;
+    z-index: 1;
+    top: 0;
+}
+
+/* ----------------BLOQUE DOS---------------- */
+
+.bloque_dos{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    margin-top: -4px;
+}
+
+.texto_dos{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto_dos_zip{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 50%;
+}
+
+.texto_dos_zip h3{
+    font-family: var(--font_2);
+    font-size: 38px;
+}
+
+.texto_dos_zip p{
+    color: var(--primary_2);
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.texto_dos_zip a{
+    font-family: var(--font_2);
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    z-index: 1;
+}
+
+.img_dos{
+    width: 50%;
+}
+
+.img_dos img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top left;
+}
+
+.link{
+    height: 30px;
+}
+
+.line_dos{ 
+    width: 130px;
+    height: 10px;
+    background-color: var(--soft_yellow); 
+    border-radius: 30px;
+    border: 0;
+    margin-top: -7px;
+    margin-left: -8px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.line_dos:hover{
+    background-color: var(--yellow);   
+}
+/* ----------------BLOQUE TRES---------------- */
+
+.bloque_tres{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+}
+
+.texto_tres{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto_tres_zip{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 50%;
+}
+
+.texto_tres_zip h3{
+    font-family: var(--font_2);
+    font-size: 38px;
+}
+
+.texto_tres_zip p{
+    color: var(--primary_2);
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.texto_tres_zip a{
+    font-family: var(--font_2);
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    z-index: 1;
+}
+
+.img_tres{
+    width: 50%;
+}
+
+.img_tres img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top left;
+}
+
+.line_tres{ 
+    width: 130px; 
+    height: 10px;
+    background-color: var(--softer_red); 
+    border-radius: 30px;
+    border: 0;
+    margin-top: -7px; 
+    margin-left: -8px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.line_tres:hover{
+    background-color: var(--soft_red);   
+}
+
+/* ----------------BLOQUE CUATRO---------------- */
+
+.bloque_cuatro{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+}
+
+.img_cuatro{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.img_cuatro img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top left;
+}
+
+.img_cuatro h3{
+    position: absolute;
+    z-index: 1;
+    font-family: var(--font_2);
+    font-size: 30px;
+    bottom: 28%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 60%;
+}
+
+.img_cuatro p{
+    font-size: 16px;
+    position: absolute;
+    z-index: 1;
+    bottom: 8%;
+    left: 0;
+    width: 100%;
+    padding: 0px 180px 0 180px;
+    text-align: center;
+    line-height: 30px;
+    opacity: 50%;
+}
+
+/* ----------------BLOQUE CINCO---------------- */
+
+.bloque_cinco {
+    width: 100%;
+    height: 90vh;
+    background-color: hsl(26, 100%, 99%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bloque_cinco h3{
+    font-family: var(--font_2);
+    font-size: 19px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 150px 0 50px 0;
+    color: var(--primary_1);
+}
+
+.testimonials{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    text-align: center;    
+}
+
+.testimonials p{
+    width: 80%;
+    font-size: 17px;
+    text-align: center;
+    line-height: 30px;
+    opacity: 50%;
+}
+
+.testimonials img{
+    border-radius: 50%;
+    width: 70px;
+}
+
+.testimonials h5{
+    font-family: var(--font_2);
+}    
+
+.testimonials h6{
+    font-size: 14px;
+    color: var(--primary_1);
+}
+
+.char{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 170px;
+    padding-top: 40px;
+}
+
+/* ----------------BLOQUE SEIS---------------- */
+
+.bloque_seis{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+.bloque_seis img{
+    width: 25%;
+    object-fit: cover;
+}
+
+/* ----------------FOOTER---------------- */
+
+footer{
+    width: 100%;
+    height: 45vh;
+    background-color: #91D3C5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav_footer{
+    justify-content: center;
+    color: var(--footer);
+    gap: 70px;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.nav_footer li:hover{
+    color: var(--primary);
+}
+
+.social{
+    display: flex;
+    gap: 20px;
+}
+
+.social img{
+    cursor: pointer;
+}
+
+.social img:hover{
+    filter: brightness(100);
+}
+
+.logo_foot {
+    margin-top: 60px;
+    filter: invert(50%) sepia(8%) saturate(2062%) hue-rotate(118deg) brightness(94%) contrast(86%);
+}
+    
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a {
+    color: var(--footer); 
+    text-decoration: none;
+}
